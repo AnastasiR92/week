@@ -1,0 +1,75 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: rgb(207, 206, 206);
+}
+
+main {
+    display: flex;
+    box-sizing: border-box;
+    height: 60vh;
+}
+
+.mainpart {
+    box-sizing: border-box; /* задали box-sizing */
+    width: 70vw;
+    text-align: center;
+    background: rgb(250, 237, 206);
+}
+
+#part1, #part2, #part3 {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    text-align: center;
+    background: rgb(253, 217, 158);
+}
+
+#part1, #part2 {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* задали box-sizing */
+    width: 480px;
+    height: 100px;
+    padding: 25px;
+    margin: 10px;
+}
+
+#part3 {
+    box-sizing: border-box; /* задали box-sizing */
+    width: 986px;
+    height: 100px;
+    padding: 25px;
+}
+
+.sidearea {
+    box-sizing: border-box; /* задали box-sizing */
+    width: 30vw;
+    text-align: center;
+    background: rgb(194, 216, 194);
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box; /* задали box-sizing */
+    height: 40vh;
+    background: rgb(207, 206, 206);
+}
+
+.sectionfooter {
+    display: flex;
+    box-sizing: border-box; /* задали box-sizing */
+    width: 340px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 238, 238);
+}

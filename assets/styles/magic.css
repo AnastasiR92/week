@@ -1,0 +1,219 @@
+body {
+    background: linear-gradient(to top left, powderblue, pink);
+}
+
+h1 {
+    font-family: "Madimi One", Times, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(193, 123, 97);
+}
+
+
+.menu a:hover {
+    text-decoration: none;
+    color: darkmagenta;
+    background: lightsteelblue;
+}
+
+
+ul {
+    justify-content: center;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 190px;
+    height: 45px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 14pt;
+    font-weight: 300;
+    font-style: normal;
+    background: rgb(247, 180, 172);
+    border:none;
+    box-shadow: 10px 10px 15px rgba(189, 189, 189, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 90vw;
+    padding: 10px;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+img {
+    justify-content: center;
+    width: 490px;
+    height: 450px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 0 15px rgba(152, 152, 152, 0.9);
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.photo1:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; top: 30%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
+
+.photo2:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    right: 28%; top: 30%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
+
+.photo3:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; top: 110%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
+
+.photo4:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    right: 28%; top: 110%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
+
+.photo5:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; top: 180%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
+
+.photo6:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    right: 26%; top: 180%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
+
+.photo7:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; top: 260%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
+
+.photo8:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    right: 26%; top: 260%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
+
+.photo9:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; top: 330%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
+
+.photo10:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    right: 26%; top: 330%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
+
+.photo11:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; top: 410%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
+
+.photo12:hover::after { 
+    content: attr(data-title); 
+    position: absolute; /* Абсолютное позиционирование */
+    right: 26%; top: 410%; /* Положение подсказки */
+    padding: 5px 10px; /* Поля */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    border: 1px solid #333; /* Параметры рамки */
+}
